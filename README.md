@@ -36,12 +36,14 @@ Forked from [https://github.com/rob040/LEDmatrixClock](https://github.com/rob040
 * When using the LED display at lowest intensity, some pixel flicker might be visible. It varies with display module hardware. This is being worked on.
 
 ## Parts:
+| Part                        |          |
+| ---                         | ---      |
 | ESP8266 (ex. Wemos D1 Mini) | Required |
 | MAX7219 LED Matrix Module   | Required |
 | USB Power supply            | Required |
 | Case                        | Optional |
 
-## Wiring for the Wemos D1 Mini to the LED Dot Matrix Display
+## Wiring the Wemos D1 Mini to the MAX7219 LED Dot Matrix Display
 
 | MAX7219 | D1 mini          | Comment     |
 | ---     | ---              | ---         |
