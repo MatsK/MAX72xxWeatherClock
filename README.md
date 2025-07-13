@@ -67,11 +67,10 @@ To build, open the `pioarduino` or `platformio` extension (icon on left hand sid
 
 ### Initial Configuration
 Editing the **Settings.h** file is totally optional and not required.
+
 All settings and API Keys are managed from the Web Interface.
-* Open Weather Map free service API key: http://openweathermap.org/  -- this is used to get weather data and the current time zone from the selected City. This API key is required for correct time.
-* <del>TimeZoneDB free registration for API key: https://timezonedb.com/register -- this is used for setting the time and getting the correct time zone as well as managing time changes due to Day Light Savings time by regions.  This key is set and managed only through the web interface. TimeZoneDB key is required for correct time display.</del><br> This is no longer needed nor requested!
-* <del>Your OctoPrint API Key -- optional if you use the OctoPrint status.</del> This function has been removed, see above.
-* <del>Your Pi-hole API Key -- optional if you use the Pi-hole status.</del> This function has been removed, see above.
+
+* Open Weather Map free service API key: http://openweathermap.org/ -- Open Weather Map is used to get weather data and the current time zone from the selected City. This API key is required for correct time.
 
 **NOTE:** The settings in the Settings.h are the default settings for the first loading. After loading you will manage changes to the settings via the Web Interface. If you want to change settings again in the settings.h, you will need to erase the file system on the Wemos or use the `Reset Settings` option in the Web Interface.
 
@@ -80,7 +79,7 @@ The project uses the **WiFiManager** so when it can't find the last network it w
 
 After connected to your WiFi network it will display the IP address assigned to it and that can be used to open a browser to the Web Interface. Now you will be able to manage your API Keys through the web interface.
 
-The default user / password for the configuration page is: admin / password
+The default user / password for the configuration page is: `admin / password`
 
 The Clock will display the local time of the City selected for the weather after a short synchronization period.
 
